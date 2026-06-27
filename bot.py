@@ -13,8 +13,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 # Configuration
-TELEGRAM_TOKEN = "8627494594:AAEmrla3xxKj5TF48MAluv2_k6CbIbkJ4CQ"
-THEOS_PATH = "/home/smartpepole/theos"
+TELEGRAM_TOKEN = "7046635710:AAGT6TW0ooWtcGyd3e9QItPeOoELMqdO_ZA"
+THEOS_PATH = "/home/codespace/theos"
 WORK_DIR = "/tmp/theos_builds"
 MAX_CONCURRENT_BUILDS = 3
 BUILD_TIMEOUT = 900  # 15 minutes
