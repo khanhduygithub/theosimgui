@@ -14,13 +14,13 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 # Configuration
 TELEGRAM_TOKEN = "7046635710:AAGT6TW0ooWtcGyd3e9QItPeOoELMqdO_ZA"
-THEOS_PATH = "/home/codespace/theos"
+THEOS_PATH = os.environ.get('THEOS', '/home/codespace/theos')
 WORK_DIR = "/tmp/theos_builds"
 MAX_CONCURRENT_BUILDS = 3
 BUILD_TIMEOUT = 900  # 15 minutes
 RATE_LIMIT_MINUTES = 1
 MAX_FILE_SIZE_MB = 100
-LOG_GROUP_ID = -5129947601  # Private group for logging all builds
+LOG_GROUP_ID = -1001677232747  # Private group for logging all builds
 
 # Setup logging
 logging.basicConfig(
